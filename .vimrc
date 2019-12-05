@@ -39,6 +39,12 @@ Plugin 'plasticboy/vim-markdown'
 " plugin vim-instant-markdown
 Plugin 'suan/vim-instant-markdown'
 
+" plugin vimcdoc
+Plugin 'yianwillis/vimcdoc'
+
+" plugin ale
+Plugin 'w0rp/ale'
+
 call vundle#end()
 filetype plugin indent on
 " ----------------------------- Vundle End   -----------------------------
@@ -220,3 +226,7 @@ let g:vim_markdown_folding_disabled = 1
 
 " 默认关闭instant markdown功能
 " let g:instant_markdown_autostart = 0
+
+" 设置vim帮助文档为中文
+"set helplang=cn
+set helplang=en
